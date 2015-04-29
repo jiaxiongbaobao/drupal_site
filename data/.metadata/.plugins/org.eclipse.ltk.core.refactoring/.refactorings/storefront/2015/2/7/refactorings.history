@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;/storefront/sites/all/modules/customofmy/entity_example&apos; to &apos;basic_entity&apos;&#x0A;- Original element: &apos;entity_example&apos;" description="Rename resource &apos;entity_example&apos;" flags="7" id="org.eclipse.dltk.ui.rename.resource" input="sites/all/modules/customofmy/entity_example" name="basic_entity" stamp="1423448263089" version="1.0"/>
+</session>

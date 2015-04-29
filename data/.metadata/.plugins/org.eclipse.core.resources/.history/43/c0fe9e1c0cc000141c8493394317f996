@@ -1,0 +1,40 @@
+<?php
+
+/**
+ * @file
+ * Default simple view template to all the fields as a row.
+ *
+ * - $view: The view in use.
+ * - $fields: an array of $field objects. Each one contains:
+ *   - $field->content: The output of the field.
+ *   - $field->raw: The raw data for the field, if it exists. This is NOT output safe.
+ *   - $field->class: The safe class id to use.
+ *   - $field->handler: The Views field handler object controlling this field. Do not use
+ *     var_export to dump this object, as it can't handle the recursion.
+ *   - $field->inline: Whether or not the field should be inline.
+ *   - $field->inline_html: either div or span based on the above flag.
+ *   - $field->wrapper_prefix: A complete wrapper containing the inline_html to use.
+ *   - $field->wrapper_suffix: The closing tag for the wrapper.
+ *   - $field->separator: an optional separator that may appear before a field.
+ *   - $field->label: The wrap label text to use.
+ *   - $field->label_html: The full HTML of the label to use including
+ *     configured element type.
+ * - $row: The raw result object from the query, with all data it fetched.
+ *
+ * @ingroup views_templates
+ */
+?>
+<?php var_dump($fields) ?>
+<div class="con shoplist">
+	<ul class="list_aa listimg" id="component_0__0__3058">
+		<li class="line1">
+			<div class="inner">
+				<div class='pic'  target="_blank"><?php  print $fields['field_img']->content; ?></div>
+				<p class="name"> <?php print $fields['title']->content;?>  </p>
+					<p class="detail">6个月，畅销200万册，最会讲故事的人张嘉佳，献给你的心动故事！	14亿次阅读，1500万次转发!全国巡回9城10场63小时签售，10万粉丝“路过”张嘉佳，	这些都是你们为《从你的全世界路过》筑起的成绩单。
+				从上架第一天到现在，每一天，每一分钟，都有人在故事里看到自己。张嘉佳的33个睡前故事，有泪点，也有笑点，三分钟可以读完一篇，或许你会静静回味一整年。
+				</p>					
+			</div>
+		</li>
+	</ul>
+</div>

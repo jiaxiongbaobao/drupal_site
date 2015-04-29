@@ -1,0 +1,11 @@
+<?php
+	 $content=$element->content;
+   //  var_dump($content); 
+?>
+<div style=" color: royalblue;">
+<?php  print t('****************************************************************')?><br />
+<?php print t("标题 : ")?><?php print var_dump($content['#element']->flyview) ?><br />
+<?php print t("ID : ")?><?php print render($content['#element'])->basic_id ?><br />
+<?php print t("类型 : ")?><?php print render($content['#entity_type']) ?><br />
+<?php print t("内容 : ")?><?php print t("故事的主角黑崎一护是个看似颓废、单薄，实质上善良、勇敢、爱护家庭的少年，并且拥有能看见灵的体质。家里有一个开诊所的老爸和两个性格正常的妹妹夏梨和游子，一护每天七点必须按时回家,否则老爸便会使用“身体语言教训”的家规。吵闹的父子，懂事的妹妹以及与其他普通人并无大异的普通生活，直到女死神朽木露琪亚被他一脚踢到墙角并满脸惊疑地望着他问“你能看见我？”时漫画的序幕才这样被正式地揭开。 从此黑崎一护身边所有的事物都产生了翻天覆地的变化[3] 。")?><br />
+</div>

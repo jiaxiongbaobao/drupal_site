@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="401" key="DIALOG_WIDTH"/>
+		<item value="106" key="DIALOG_Y_ORIGIN"/>
+		<item value="1051" key="DIALOG_X_ORIGIN"/>
+		<item value="493" key="DIALOG_HEIGHT"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="$theme_path" key="selection"/>
+		<list key="findhistory">
+			<item value="$theme_path"/>
+			<item value="files[] = "/>
+			<item value="drupalcons_api_test_page"/>
+			<item value="drupal_get_form"/>
+			<item value="drupal_http_request_function"/>
+			<item value="$api_url"/>
+			<item value="The configuration options have been saved."/>
+			<item value="drupalcons_admin_form"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+</section>

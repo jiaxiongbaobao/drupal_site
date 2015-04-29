@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+org.eclipse.php.debug.core.pathMapper=<pathMappers><item2><mapper><item1><remote>/var/www/flyview-source/Session-FlyViews-Source-Site-platform/web</remote><local>/flyviews</local><type>WORKSPACE</type></item1></mapper><server>Default PHP Web Server</server></item2><item3><mapper><item1><remote>/var/www/storefront</remote><local>/storefront</local><type>WORKSPACE</type></item1></mapper><server>storefront</server></item3><item1><mapper><item1><remote>/var/www/flyview/Session-FlyViews-Site-platform/web</remote><local>/flyviews</local><type>WORKSPACE</type></item1></mapper><server>flyviews</server></item1></pathMappers>
+org.eclipse.php.debug.core.xdebug_idekey=ECLIPSE_DBGP_127.0.1.1
